@@ -1,0 +1,107 @@
+.header-logo{
+    width: 500px;
+}
+
+ul.main-menu{
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: black;
+}
+
+li.menu{
+    list-style: none;
+    display: inline;
+    color: white;
+    margin-left: 60px;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.blog-main{
+    width: 70%;
+    height: 1000px;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 30px;
+}
+.title{
+    border-bottom: 2px solid black;
+    border-left: 5px solid black;
+    padding-left: 10px;
+}
+.main-image{
+    width: 100%;
+}
+
+.responce{
+    
+}
+
+.blog-sub{
+    width: 25%;
+    height: 1000px;
+    float: right;
+    margin-bottom: 30px;
+}
+
+.sub-topic{
+    margin-bottom: 30px;
+}
+.sub-header{
+    border-bottom: 2px dotted black;
+}
+
+li.sub{
+    list-style: none;
+    line-height: 2em;
+}
+
+.archive{
+    width: 70%;
+    background-color: gray;
+    color: black;
+    margin-bottom: 30px;
+}
+
+.archive1{
+    margin: 0 auto;
+}
+.archive-images1{
+    float: left;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.archive-images1 p{
+    text-align: center;
+}
+.archive-images2{
+    float: left;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.archive-images2 p{
+    text-align: center;
+}
+
+.archive-image{
+    width: 225px;
+    height: 180px;
+}
+
+footer{
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    
+}

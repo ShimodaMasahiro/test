@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>jQuery</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+<script>
+    $(document).ready(function(){
+  $('.abc').bxSlider({
+      auto: true,
+      mode: 'fade',
+      speed: 1000,
+      sideWidth: 400
+  });
+    });
+</script>
+</head>
+
+<body>
+<div class="abc">
+    <div><img src="jQuery_image1.jpg"></div>
+    <div><img src="jQuery_image2.jpg"></div>
+    <div><img src="jQuery_image3.jpg"></div>
+    <div><img src="jQuery_image4.jpg"></div>
+    <div><img src="jQuery_image5.jpg"></div>
+    
+  </div>
+    
+<script type="text/javascript" src="javascript.js"></script>
+</body>
+</html>
