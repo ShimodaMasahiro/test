@@ -1,0 +1,5 @@
+//原本クラス//
+public class Person {
+	public String name=null;//フィールド,null=初期値//
+	public int age=0;//フィールド//
+}

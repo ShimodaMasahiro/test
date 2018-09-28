@@ -1,0 +1,23 @@
+//原本クラス//
+public class Person {
+	public String name=null;//フィールド,null=初期値//
+	public int age=0;//フィールド//
+
+	public Person(){}
+	//クラス名と同じメソッド名=コンストラクタ//
+	public Person(String name, int age){
+		this.name = name;
+		this.age =age;
+	}
+	public void talk(){//メソッド(の定義)//
+		System.out.println(this.name + "が話す");
+		}
+		public void walk(){
+		System.out.println(this.name + "が歩く");
+		}
+		public void run(){
+		System.out.println(this.name + "が走る");
+		}
+
+	//フィールドとメソッドがある。合わせてメンバーと呼ぶ//
+}

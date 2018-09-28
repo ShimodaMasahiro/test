@@ -1,0 +1,15 @@
+///司令塔クラス(原本のインスタンス化)//
+public class Test {
+
+	public static void main(String[] args) {
+		//メインメソッド=自動的に一番最初に実行されるメソッド//
+		Person taro=new Person();
+		//インスタンス可 new Personで新しいPersonクラスのインスタンスを生成.PersonはPersonクラスの型、taroは変数//
+		taro.name="山田太郎";
+		//taroインスタンスにあるnameフィールドに山田太郎という名前を代入、という表現//
+		taro.age=20;
+		System.out.println(taro.name);
+		System.out.println(taro.age);
+	}
+
+}

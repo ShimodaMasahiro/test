@@ -1,0 +1,19 @@
+///司令塔クラス//
+public class Test {
+
+	public static void main(String[] args) {
+		//メインメソッド=自動的に一番最初に実行されるメソッド//
+		Person taro=new Person();
+		//インスタンス可 new Personで新しいPersonクラスのインスタンスを生成//
+		taro.name="山田太郎";
+		////
+		taro.age=20;
+		////
+		System.out.println(taro.name);
+		////
+		System.out.println(taro.age);
+		////
+
+	}
+
+}
