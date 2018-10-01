@@ -1,0 +1,4 @@
+127.0.0.1 - - [01/Oct/2018:10:44:20 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [01/Oct/2018:10:44:21 +0900] "GET /HelloServlet/ HTTP/1.1" 200 737
+0:0:0:0:0:0:0:1 - - [01/Oct/2018:10:44:29 +0900] "GET /HelloServlet/TestServlet?username=ddd&password=ddd HTTP/1.1" 200 55
+0:0:0:0:0:0:0:1 - - [01/Oct/2018:10:44:43 +0900] "POST /HelloServlet/TestServlet HTTP/1.1" 200 55

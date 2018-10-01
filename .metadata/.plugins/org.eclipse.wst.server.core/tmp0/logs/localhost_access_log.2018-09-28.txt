@@ -94,3 +94,14 @@
 0:0:0:0:0:0:0:1 - - [28/Sep/2018:14:11:44 +0900] "GET /HelloServlet/ HTTP/1.1" 200 290
 0:0:0:0:0:0:0:1 - - [28/Sep/2018:14:11:45 +0900] "GET /HelloServlet/welcome.jsp HTTP/1.1" 200 345
 0:0:0:0:0:0:0:1 - - [28/Sep/2018:14:11:51 +0900] "POST /HelloServlet/WelcomeServlet HTTP/1.1" 200 73
+127.0.0.1 - - [28/Sep/2018:14:36:53 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [28/Sep/2018:14:36:55 +0900] "GET /HelloServlet/ HTTP/1.1" 200 379
+0:0:0:0:0:0:0:1 - - [28/Sep/2018:14:36:57 +0900] "GET /HelloServlet/inquiry.jsp HTTP/1.1" 200 617
+0:0:0:0:0:0:0:1 - - [28/Sep/2018:14:37:23 +0900] "POST /HelloServlet/InquiryServlet HTTP/1.1" 200 111
+127.0.0.1 - - [28/Sep/2018:17:42:42 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [28/Sep/2018:17:42:44 +0900] "GET /HelloServlet/ HTTP/1.1" 200 737
+0:0:0:0:0:0:0:1 - - [28/Sep/2018:17:43:15 +0900] "GET /HelloServlet/TestServlet?username=dfgasdfg&password=ddddddddd HTTP/1.1" 200 66
+0:0:0:0:0:0:0:1 - - [28/Sep/2018:17:43:21 +0900] "POST /HelloServlet/TestServlet HTTP/1.1" 200 68
+0:0:0:0:0:0:0:1 - - [28/Sep/2018:17:43:27 +0900] "GET /HelloServlet/inquiry.jsp HTTP/1.1" 200 617
+0:0:0:0:0:0:0:1 - - [28/Sep/2018:17:43:32 +0900] "GET /HelloServlet/welcome.jsp HTTP/1.1" 200 345
+0:0:0:0:0:0:0:1 - - [28/Sep/2018:17:43:36 +0900] "GET /HelloServlet/HelloServlet HTTP/1.1" 200 59
