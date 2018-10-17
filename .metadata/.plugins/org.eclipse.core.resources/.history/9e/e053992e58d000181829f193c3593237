@@ -1,0 +1,9 @@
+package com.internousdev.template.action;
+
+import java.sql.SQLException;
+import java.util.Map;
+import org.apache.struts2.interceptor.SessionAware;
+
+public class UserCreateCompleteAction {
+	
+}
