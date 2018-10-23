@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta http-equiv="Content-Style-Type" content="text/css"/>
 	<meta http-equiv="Content-Script-Type" content="text/javascript"/>
 	<meta http-equiv="imagetoolbar" content="no"/>
@@ -84,7 +84,7 @@
 			<tr>
 				<td>購入個数</td>
 				<td>
-					<s:property value="session.buyItem_stock"/>
+					<s:property value="session.stock"/>
 						<span>個</span>
 				</td>
 			</tr>

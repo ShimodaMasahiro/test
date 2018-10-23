@@ -1,7 +1,0 @@
-package com.internousdev.webproj5.action;
-
-public class InquiryAction {
-	public String execute(){
-		return SUCCESS;
-	}
-}

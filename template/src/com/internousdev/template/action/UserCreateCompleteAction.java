@@ -53,6 +53,4 @@ public class UserCreateCompleteAction extends ActionSupport implements SessionAw
 	public void setSession(Map<String,Object>session){
 		this.session=session;
 	}
-
-
 }
