@@ -2,11 +2,9 @@ package com.internousdev.ecsite.dto;
 
 public class BuyItemDTO {
 
-	public int id;
-
-	public String itemName;
-
-	public String itemPrice;
+	private int id;
+	private String itemName;
+	private String itemPrice;
 
 	public String getItemName(){
 		return itemName;

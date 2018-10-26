@@ -104,7 +104,6 @@ INDEX VERSION 1.127+C:\Users\internousdev\Desktop\workspace\workspace-shimoda\te
 1986076214.index
 1910591477.index
 2371065934.index
-3082098993.index
 2722732484.index
 1674484707.index
 3245510398.index
