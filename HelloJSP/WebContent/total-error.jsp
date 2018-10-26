@@ -3,16 +3,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>TEST</title>
+<meta charset="UTF-8">
+<title>TOTAL-ERROR</title>
 </head>
 <body>
-
 <%@page isErrorPage="true" %>
 <p>数値を入力してください。</p>
 <button onclick="history.back()">戻る</button>
 <br>
-<p><%=exception %></p>
 <table border=1>
 <tr>
 	<td><strong>エラーメッセージ</strong></td>
@@ -25,11 +23,10 @@
 <tr>
 	<td><strong>スタックトレース</strong></td>
 	<td>
-	<%
-	exception.printStackTrace(new java.io.PrintWriter(out));
-	%>
-	</td></tr>
+<%
+exception.printStackTrace(new java.io.PrintWriter(out));
+%>
+</td></tr>
 </table>
-
 </body>
 </html>

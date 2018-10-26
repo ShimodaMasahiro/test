@@ -22,37 +22,37 @@
 	color:#333;
 	background:#fff;
 	}
-	
+
 	table{
 	text-align:center;
 	margin:0 auto;
 	}
-	
+
 	#top{
 	width:780px;
 	margin:30px auto;
 	border:1px solid #333;
 	}
-	
+
 	#header{
 	width:100%;
 	height:80px;
 	background-color:black;
 	}
-	
+
 	#main{
 	width:100%;
 	height:500px;
 	text-align:center;
 	}
-	
+
 	#footer{
 	width:100%;
 	height:80px;
 	background-color:black;
 	clear:both;
 	}
-	
+
 	#text-center{
 	display:inline-block;
 	text-align:center;
@@ -74,7 +74,7 @@
 			</s:form>
 			<s:if test="#session.id!=null">
 				<p>ログアウトする場合は
-					<a href='<s:url action="LoginAction"/>'>こちら</a></p>
+					<a href='<s:url action="LogoutAction"/>'>こちら</a></p>
 			</s:if>
 		</div>
 	</div>

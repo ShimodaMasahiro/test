@@ -3,11 +3,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>TEST</title>
+<meta charset="UTF-8">
+<title>GREETING-OUT</title>
 </head>
 <body>
 <% request.setCharacterEncoding("UTF-8"); %>
-<p>こんにちは、<%=request.getParameter("user") %>さん!</p>
+<p>こんにちは、<%=request.getParameter("user") %>さん！</p>
 </body>
 </html>
